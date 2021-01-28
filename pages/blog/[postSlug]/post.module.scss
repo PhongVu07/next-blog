@@ -1,0 +1,33 @@
+.postTitle {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 0 4px;
+}
+
+.description {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #757575;
+    margin: 0 0 16px;
+}
+
+.coverImage {
+    margin-bottom: 16px;
+}
+
+.metaData {
+    display: flex;
+    margin-bottom: 48px;
+
+    span {
+        font-size: 15px;
+        color: #757575;
+    }
+}
+
+.content {
+    font-size: 21px;
+    font-family: 'Hind';
+}

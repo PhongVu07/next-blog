@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "clsx": "latest",
+    "dayjs": "^1.10.3",
+    "disqus-react": "^1.0.10",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.9",
+    "next": "^10.0.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-markdown": "^5.0.3",
+    "sass": "^1.32.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/lodash": "^4.14.167",
+    "@types/next": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest",
+    "webpack-bundle-analyzer": "^4.3.0"
+  }
+}
