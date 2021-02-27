@@ -1,3 +1,5 @@
+import React from "react";
+import Head from "next/head";
 import Navbar from "../Navbar";
 import styles from "./layout.module.scss";
 
@@ -7,10 +9,16 @@ interface ILayoutProps {
 
 const Layout = ({ children }: ILayoutProps) => {
   return (
-    <div className={styles.container}>
-      <Navbar />
-      {children}
-    </div>
+    <>
+      <Head>
+        <title>PV Blog</title>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      <div className={styles.container}>
+        <Navbar />
+        {children}
+      </div>
+    </>
   );
 };
 

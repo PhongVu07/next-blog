@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export interface IPost {
-  _id: string;
+  _id?: string;
   slug: string;
   title: string;
   content: string;

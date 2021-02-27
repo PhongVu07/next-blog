@@ -3,6 +3,7 @@
   "version": "4.0.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.21.1",
     "clsx": "latest",
     "dayjs": "^1.10.3",
     "disqus-react": "^1.0.10",
@@ -11,6 +12,7 @@
     "next": "^10.0.4",
     "react": "latest",
     "react-dom": "latest",
+    "react-hook-form": "^6.15.4",
     "react-markdown": "^5.0.3",
     "sass": "^1.32.2"
   },

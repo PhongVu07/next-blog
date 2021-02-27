@@ -1,14 +1,15 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import ReactMarkdown from "react-markdown";
 import get from "lodash/get";
 import dayjs from "dayjs";
 import PostContainer from "../../../components/Post/PostContainer";
 import Layout from "../../../components/Layout";
 import Image from "../../../components/Image";
 import PostFooter from "../../../components/Post/PostFooter";
+import PostContent from "../../../components/Post/PostContent";
 import dbConnect from "../../../utils/dbConnect";
 import Post, { IPost } from "../../../models/post";
 import styles from "./post.module.scss";
+import React from "react";
 
 interface IPostPageProps {
   postDetail: IPost;
@@ -39,7 +40,7 @@ const PostPage = ({ postDetail }: IPostPageProps) => {
         <div className={styles.metaData}>
           <span>{dayjs(updatedAt).format("MMM D, YYYY")}</span>
         </div>
-        <ReactMarkdown className={styles.content} source={content} />
+        <PostContent content={content} />
       </PostContainer>
       <PostFooter post={postDetail} />
     </Layout>

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    padding: 24px;
+
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20px;
+        margin-bottom: 40px;
+
+        .blogContentInput {
+            width: calc(100vw - 750px);
+        }
+
+        input {
+            margin-bottom: 16px;
+        }
+
+        textarea {
+            margin-bottom: 16px;
+        }
+    }
+
+    .markdownContainer {
+        width: 730px;
+        border: 1px solid black;
+    }
+}

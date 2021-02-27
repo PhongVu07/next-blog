@@ -1,3 +1,5 @@
+@import '../../styles/globalStyles.scss';
+
 .navbar {
     height: 72px;
     width: 100vw;
@@ -7,4 +9,21 @@
     left: 0;
     background-color: white;
     z-index: 9;
+}
+
+.contentContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "NotoSans";
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
