@@ -1,25 +1,12 @@
-# Next.js with TypeScript example
+# A simple blog built with NextJS and built-in api with Mongoose and MongoDB
 
-## How to use
-
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
-
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs-with-typescript
-cd nextjs-with-typescript
-```
-
-Install it and run:
+1. Install
+2. Create an env file, with variables from .env.example 
+3. Run:
 
 ```sh
-npm install
-npm run dev
+yarn
+yarn dev
 ```
 
-or:
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/nextjs-with-typescript)
-
-## The idea behind the example
-
-[Next.js](https://github.com/zeit/next.js) is a framework for server-rendered React apps.
+Any feedback and contribution are welcome :D 
